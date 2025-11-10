@@ -1,18 +1,17 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-     --fonte-titulo:"Lobster Two";
-     --fonte-texto:"Smooch Sans";
-     --cor-principal:#88c0d0;
-     --cor-secundaria:#5a6a8a;
-     --cor-destaque:#b2ace2;
-     --cor-texto:#000000;
- }
+    --fonte-titulo: 'Archivo';
+    --fonte-texto:'Montserrat';
+    --cor-principal:#3b73bc;
+    --cor-secundaria:#5c2fb5;
+    --cor-destaque:#a2e3f5;
+    --cor-texto:#FFFFFF;
+}
 body{
     background-color: var(--cor-principal);
-    color:var(--cor-texto);
+    color: var(--cor-texto);
     font-family: var(--fonte-texto);
     display: flex;
     justify-content: center;
@@ -35,11 +34,12 @@ h1{
 button{
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
+    border: none;
     border-radius: 15px;
     padding: 15px;
-    transition: background-color 0.3s;
+    background-color: background-color 0.3s;
 }
-button :hover{
+button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }

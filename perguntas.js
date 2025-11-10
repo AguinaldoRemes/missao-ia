@@ -1,96 +1,95 @@
 export const perguntas = [
     {
-        enunciado: "O problema central é a escolha entre a flexibilidade e o controle versus a complexidade e o custo de gerenciar múltiplos pods em Kubernetes.",
+        enunciado: "O problema central é a escolha entre o prazer imediato de usar pods de vaporizador e os riscos à saúde a longo prazo, incluindo dependência e efeitos no sistema respiratório.",
         alternativas: [
             {
-                texto: "Adotar uma arquitetura com muitos pods independentes, promovendo a escalabilidade, flexibilidade e resiliência, aproveitando o isolamento entre os pods e a capacidade de escalar automaticamente.",
+                texto: "Usar pods de vaporizador regularmente, pois eles oferecem uma alternativa mais prática e discreta ao cigarro tradicional, com menos exposição à fumaça.",
                 afirmacao: [
-                    "A utilização de múltiplos pods traz escalabilidade e resiliência para aplicações. Cada pod pode ser escalado e gerido de forma independente, garantindo maior flexibilidade no gerenciamento de cargas de trabalho. No entanto, a complexidade de gestão e a sobrecarga de rede podem ser desafios. A chave está em balancear a quantidade de pods e a necessidade de automação para não gerar uma sobrecarga operacional.",
-                    "A adoção de pods pode resultar em uma arquitetura mais ágil e flexível, mas exige uma estratégia eficaz de monitoramento e gestão para evitar problemas como 'overhead' de rede ou falhas na comunicação entre pods."
+                    "A opção de usar pods pode ser atraente devido à sua conveniência e menor quantidade de substâncias tóxicas comparado ao cigarro tradicional. No entanto, a nicotina ainda pode causar dependência e ter efeitos nocivos ao longo do tempo, incluindo problemas respiratórios e cardiovasculares.",
+                    "Embora o risco imediato de câncer seja menor, a dependência da nicotina pode levar a um consumo constante e ao agravamento de problemas de saúde ao longo dos anos."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Optar por um número reduzido de pods, focando na simplicidade e controle, mas sacrificando a escalabilidade e a resiliência em favor de uma gestão mais fácil e custos operacionais mais baixos.",
+                texto: "Evitar o uso de pods e optar por métodos mais seguros de controle de estresse e prazer, como a prática de atividades físicas ou meditação.",
                 afirmacao: [
-                    "Optar por poucos pods pode reduzir a complexidade, mas limita a capacidade de escalar a aplicação rapidamente em resposta a picos de demanda. Além disso, pode tornar a aplicação mais suscetível a falhas, já que não há a mesma redundância e flexibilidade proporcionada por múltiplos pods."
+                    "Abandonar o uso de pods e buscar alternativas mais saudáveis pode ajudar a melhorar a saúde a longo prazo, evitando a dependência da nicotina e prevenindo problemas respiratórios e cardiovasculares."
                 ],
                 proxima: 2,
             }
         ]
     },
     {
-        enunciado: "Considerando que a segurança e o desempenho são cruciais em ambientes de produção, qual a abordagem ideal ao usar pods para maximizar a segurança sem prejudicar a performance do sistema?",
+        enunciado: "Considerando os riscos à saúde associados ao uso de nicotina, qual abordagem de redução de danos você acha mais eficaz para quem deseja parar de usar pods?",
         alternativas: [
             {
-                texto: "Utilizar políticas rigorosas de segurança, como redes isoladas para cada pod, controles de acesso e políticas de segurança de pods, enquanto balanceia a performance com a configuração de recursos adequados para cada pod.",
+                texto: "Utilizar pods com níveis progressivamente menores de nicotina para reduzir a dependência gradualmente até conseguir parar completamente.",
                 afirmacao: [
-                    "A segurança pode ser maximizada ao aplicar políticas de rede e segurança, mas isso pode gerar sobrecarga de rede e processamento adicional. No entanto, garantir que cada pod tenha os recursos necessários para operar de forma eficiente sem sobrecarregar o sistema é fundamental para equilibrar segurança e desempenho.",
-                    "Com a configuração correta de recursos e políticas de segurança, é possível garantir que os pods operem de forma eficiente sem comprometer a segurança do sistema."
+                    "Reduzir gradualmente a nicotina pode ser uma forma eficaz de lidar com a dependência, minimizando os sintomas de abstinência e aumentando as chances de sucesso no abandono do uso de pods."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Reduzir ao máximo a segurança em favor da performance, permitindo pods mais simples e rápidos, mas sem controle rigoroso de acesso ou segmentação de rede.",
+                texto: "Substituir o uso de pods por alternativas não relacionadas à nicotina, como goma de nicotina ou adesivos para reduzir a dependência de forma mais controlada.",
                 afirmacao: [
-                    "Embora a performance seja otimizada, isso pode aumentar a vulnerabilidade do sistema a ataques e falhas de segurança. Sem uma gestão adequada, a exposição de dados sensíveis e a possibilidade de escalonamento de privilégios podem ser grandes riscos em uma arquitetura com poucos controles."
+                    "Alternativas como goma de nicotina ou adesivos podem ajudar a controlar a dependência sem os riscos do consumo de vapor, sendo uma boa estratégia para quem quer parar de usar pods."
                 ],
                 proxima: 4,
             }
         ]
     },
     {
-        enunciado: "Como você abordaria a estratégia de escalabilidade de pods em um ambiente de alta demanda e tráfego imprevisível?",
+        enunciado: "Quais são as possíveis consequências sociais e psicológicas do uso de pods de vaporizador, especialmente entre os jovens?",
         alternativas: [
             {
-                texto: "Implementar uma estratégia de autoescalabilidade, onde o número de pods aumenta ou diminui automaticamente com base na carga, para garantir que os recursos sejam alocados de forma eficiente.",
+                texto: "O uso de pods pode ser um fator de socialização entre jovens, mas também pode levar à normalização do consumo de nicotina e à dependência precoce.",
                 afirmacao: [
-                    "A escalabilidade automática é uma solução poderosa para lidar com picos inesperados de tráfego. No entanto, ela precisa ser bem configurada para garantir que o sistema não se torne ineficiente ou caro, consumindo recursos desnecessários. Monitoramento constante e ajustes dinâmicos são essenciais."
+                    "Embora o uso de pods seja visto como uma alternativa mais 'descolada', ele pode aumentar a exposição à nicotina entre os jovens e criar uma dependência que é difícil de romper, afetando a saúde mental e emocional ao longo do tempo."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Utilizar escalabilidade manual, onde a quantidade de pods é ajustada manualmente de acordo com a previsão de demanda, para ter maior controle sobre os recursos e evitar custos inesperados.",
+                texto: "O uso de pods pode ter uma função relaxante ou de prazer, ajudando a reduzir o estresse ou a ansiedade, mas pode gerar uma falsa sensação de controle.",
                 afirmacao: [
-                    "Embora o controle manual ofereça maior previsibilidade e controle de custos, ele não é eficiente em ambientes de tráfego imprevisível, onde a resposta imediata à carga pode ser crucial para manter a performance."
+                    "Embora os pods possam proporcionar alívio temporário de estresse, o uso regular cria dependência e pode mascarar problemas emocionais mais profundos, agravando os transtornos psicológicos no longo prazo."
                 ],
                 proxima: 6,
             }
         ]
     },
     {
-        enunciado: "Quais são as possíveis consequências de um gerenciamento inadequado de pods em um cluster Kubernetes?",
+        enunciado: "Como você abordaria o risco de exposição à nicotina e seus efeitos em longo prazo ao usar pods de vaporizador?",
         alternativas: [
             {
-                texto: "Falhas nos pods podem afetar toda a aplicação, com impactos como indisponibilidade, erros de comunicação e perda de dados, resultando em uma experiência do usuário prejudicada e potencial dano à reputação da empresa.",
+                texto: "Usar pods com menor concentração de nicotina ou escolher opções sem nicotina para evitar os riscos à saúde a longo prazo.",
                 afirmacao: [
-                    "O gerenciamento inadequado de pods pode causar falhas graves, afetando diretamente a disponibilidade do sistema. Além disso, o isolamento de pods falhos pode ser comprometido, causando falhas em cascata e aumentando o risco de erros críticos."
+                    "Optar por pods sem nicotina pode ser uma escolha mais segura para quem deseja evitar os riscos associados ao vício em nicotina. No entanto, mesmo sem nicotina, o uso de vapor pode ter outros efeitos adversos à saúde, especialmente no sistema respiratório."
                 ],
                 proxima: 7,
             },
             {
-                texto: "O uso incorreto de pods pode resultar em uma sobrecarga de rede e consumo excessivo de recursos, levando a custos operacionais mais elevados e redução da eficiência do sistema.",
+                texto: "Continuar o uso de pods com a intenção de reduzir o consumo de nicotina ao longo do tempo, monitorando os efeitos e fazendo ajustes conforme necessário.",
                 afirmacao: [
-                    "Sem uma correta alocação de recursos e balanceamento de carga, o uso excessivo de pods pode resultar em desperdício de recursos e custos mais altos, impactando a eficiência operacional e a capacidade de resposta do sistema."
+                    "Reduzir a concentração de nicotina ao longo do tempo pode ser uma estratégia para diminuir os danos, mas o risco de dependência continua presente. É importante estar ciente dos efeitos colaterais e tomar medidas preventivas para não agravar o problema."
                 ],
                 proxima: 8,
             }
         ]
     },
     {
-        enunciado: "Ao usar múltiplos pods em um sistema de produção, qual seria a melhor forma de monitorar o desempenho e evitar possíveis falhas?",
+        enunciado: "Qual seria a melhor maneira de lidar com a pressão social para usar pods de vaporizador em ambientes onde esse hábito é comum?",
         alternativas: [
             {
-                texto: "Adotar ferramentas de monitoramento integradas com o Kubernetes, como Prometheus e Grafana, para acompanhar o desempenho de cada pod, além de configurar alertas para identificar problemas antes que se tornem críticos.",
+                texto: "Fazer escolhas conscientes e resistir à pressão social, explicando os riscos à saúde e buscando alternativas mais saudáveis para socializar.",
                 afirmacao: [
-                    "O monitoramento contínuo é fundamental para detectar problemas de desempenho antes que se tornem falhas críticas. Ferramentas como Prometheus e Grafana permitem visualizar métricas em tempo real e ajustar a infraestrutura de forma proativa."
+                    "Resistir à pressão social é uma forma eficaz de manter a saúde em primeiro plano. Educar-se sobre os riscos do uso de pods e buscar outras formas de socializar sem depender de produtos viciantes pode evitar problemas a longo prazo."
                 ],
                 proxima: 9,
             },
             {
-                texto: "Confiar apenas no monitoramento básico do Kubernetes para verificar o status dos pods, sem implementar ferramentas externas ou alertas personalizados.",
+                texto: "Ceder à pressão social e usar pods de vaporizador para se integrar aos grupos, mas monitorar os impactos à saúde e tomar cuidado para não criar uma dependência.",
                 afirmacao: [
-                    "Embora o Kubernetes forneça algumas métricas de monitoramento, depender apenas disso pode resultar em uma visão limitada do sistema, deixando passar problemas de desempenho ou falhas que não são imediatamente visíveis no painel padrão."
+                    "Embora ceder à pressão social possa parecer uma maneira de se encaixar, isso pode aumentar os riscos de dependência e prejudicar a saúde mental e física ao longo do tempo. É importante ser crítico e consciente sobre as escolhas feitas."
                 ],
                 proxima: 10,
             }
