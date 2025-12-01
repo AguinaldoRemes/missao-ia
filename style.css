@@ -4,9 +4,9 @@
 :root{
     --fonte-titulo:'Shadows Into Light';
     --fonte-texto: 'Playfair Display';
-    --cor-principal: #282A36; 
+    --cor-principal: #2e49e2; 
     --cor-secundaria:#BD93F9; 
-    --cor-destaque:#630839;  
+    --cor-destaque:#f3dff0;  
     --cor-texto: #f8f8f2; 
 }
 body{
