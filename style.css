@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root{
-    --fonte-titulo: 'Archivo';
-    --fonte-texto:'Montserrat';
-    --cor-principal:#000000;
-    --cor-secundaria:#791087;
-    --cor-destaque:#a2e3f5;
-    --cor-texto:#FFFFFF;
+    --fonte-titulo:'Shadows Into Light';
+    --fonte-texto: 'Playfair Display';
+    --cor-principal: #282A36; 
+    --cor-secundaria:#BD93F9; 
+    --cor-destaque:#FF79C6;  
+    --cor-texto: #F8F8F2; 
 }
 body{
     background-color: var(--cor-principal);
@@ -37,9 +37,9 @@ button{
     border: none;
     border-radius: 15px;
     padding: 15px;
-    background-color: background-color 0.3s;
+    transition: background-color 0.3s;
 }
-button:hover{
+button :hover {
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
